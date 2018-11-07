@@ -39,6 +39,7 @@ The general approach:
 
 Example reducer to be converted to rust:
 
+```
 import {
 FETCH_COMMITMENTS,
 CREATE_COMMITMENT,
@@ -161,8 +162,7 @@ case FETCH_PROFILE:
 
 }
 }
-//
-//
+
 //TODO delete this if not used in fetching from the holochain
 // export default function(state = initialState, action) {
 // switch (action.type) {
@@ -174,3 +174,4 @@ case FETCH_PROFILE:
 // return state;
 // }
 // }
+```
